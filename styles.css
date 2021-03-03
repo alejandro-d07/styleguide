@@ -1,0 +1,155 @@
+
+body {
+    max-width: 1000px;
+    margin: auto;
+}
+
+/* Typographic Styles*/
+
+h1 {
+    font-family: karmina, serif;
+    color: darkslategray;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 3em;
+}
+
+h2 {
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    color: darkslategray;
+    font-size: 22px;
+
+}
+
+h3 {
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    color: darkslategray;
+    font-size: 15px;
+    font-weight: 800;
+
+}
+
+p {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(34, 34, 34);
+    font-weight: 400;
+}
+
+li {
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(34, 34, 34);
+    font-weight: 400;
+    line-height: 25px;
+}
+
+/* Header*/
+
+.primary-navigation {
+    padding-inline-start: 0px;
+    margin-bottom: 35px;
+}
+
+.primary-navigation li {
+    display: inline;
+    padding-right: 20px;
+}
+
+.primary-navigation a{
+    font-family: 'Work Sans', sans-serif;
+    color: darkslategray;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: darkslategray;
+}
+
+.nav {
+    margin-left: 0px;
+    padding-left: 0;
+}
+
+/* Colors Section */
+
+.colors {
+    margin-bottom: 70px;
+}
+
+.colors > div {
+    display: inline-block;
+    padding: 15px 40px;
+    width: 200px;
+    margin-bottom: 4px;
+}
+
+.blue1 {
+    background-color: #0CB2E8;
+}
+
+.blue2 {
+    background-color: #0CF2EE;
+}
+
+.blue3 {
+    background-color: #00DB9B;
+}
+
+.green1 {
+    background-color: #0CE829;
+}
+
+.colors p {
+    font-family: 'Work Sans', sans-serif;
+    color: darkslategray;
+    font-weight: 300;
+}
+
+/* Typography Section */
+
+
+.typography h2 {
+    margin-bottom: 25px;
+}
+
+.typography h3 {
+    color: teal;
+    line-height: 20px;
+}
+
+.typography p {
+    margin-block-start: 5px;
+}
+
+.typography a{
+    font-family: 'Work Sans', sans-serif;
+    text-transform: uppercase;
+    color: darkslategray;
+    font-size: 15px;
+    font-weight: 800;
+    color: teal;
+    line-height: 20px;
+}
+
+.font-specimen {
+    width: 263px;
+    display: inline-block;
+    vertical-align:top;
+    margin-right: 40px;
+}
+
+/* Headers and Font Styles */
+
+.header-specimen div{
+    width: 263px;
+    display: inline-block;
+    vertical-align:text-bottom;
+    margin-right: 40px;
+}
+
+.header-specimen ul{
+    list-style-type: none;
+    padding: 0;
+}
+
